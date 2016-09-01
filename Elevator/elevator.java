@@ -5,12 +5,16 @@ public class elevator
     private int top_floor;
     private int current_floor;
     private int bottom_floor;
+    private int enter_elevator;
+    private int exit_elevator;
 
     public elevator() 
     {
         current_floor = 0;
         top_floor = 11;
         bottom_floor = 0;
+        enter_elevator = 0;
+        exit_elevator = 0;
 
     }
 
@@ -33,4 +37,13 @@ public class elevator
 
         }
     }
+    
+    public void enter_elevator()
+    {
+        
+        
+        
+    }
+
+    
 }
